@@ -1150,6 +1150,9 @@ repositories:
   - name: powershell
     url: https://github.com/catppuccin/powershell
     current-maintainers: [JK-Flip-Flop96]
+  - name: prismjs
+    url: https://github.com/catppuccin/prismjs
+    current-maintainers: [uncenter]
   - name: prismlauncher
     url: https://github.com/catppuccin/prismlauncher
     current-maintainers: []
@@ -2911,6 +2914,12 @@ ports:
     icon: powershell
     key: powershell
     repository: powershell
+  - name: Prism.js
+    categories: [development]
+    platform: agnostic
+    color: text
+    key: prismjs
+    repository: prismjs
   - name: Prism Launcher
     categories: [game, application_launcher]
     platform: [linux, macos, windows]

@@ -3176,6 +3176,23 @@ ports:
     - username: JK-Flip-Flop96
       url: https://github.com/JK-Flip-Flop96
     past-maintainers: []
+- name: Prism.js
+  categories:
+  - key: development
+    name: Development Tools
+    description: Tools aiding software development, management and distribution.
+    emoji: 💭
+  platform: agnostic
+  color: text
+  key: prismjs
+  repository:
+    name: prismjs
+    url: https://github.com/catppuccin/prismjs
+    current-maintainers:
+    - username: uncenter
+      name: uncenter
+      url: https://github.com/uncenter
+    past-maintainers: []
 - name: Prism Launcher
   categories:
   - key: game
