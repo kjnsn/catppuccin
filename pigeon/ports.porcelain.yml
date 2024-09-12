@@ -4636,6 +4636,23 @@ ports:
     - username: djflan
       url: https://github.com/djflan
     past-maintainers: []
+- name: VitePress
+  categories:
+  - key: development
+    name: Development Tools
+    description: Tools aiding software development, management and distribution.
+    emoji: 💭
+  platform: agnostic
+  color: blue
+  icon: vitepress
+  key: vitepress
+  repository:
+    name: vitepress
+    url: https://github.com/catppuccin/vitepress
+    current-maintainers:
+    - username: 42Willow
+      url: https://github.com/42Willow
+    past-maintainers: []
 - name: Vivaldi
   categories:
   - key: browser
@@ -6091,6 +6108,29 @@ ports:
     emoji: 🖌️
   icon: hoppscotch
   color: green
+- name: Learn X in Y Minutes
+  key: learn-x-in-y-minutes
+  repository:
+    name: learn-x-in-y-minutes
+    url: https://github.com/catppuccin/userstyles/tree/main/styles/learn-x-in-y-minutes
+    current-maintainers:
+    - username: nikitarevenco
+      url: https://github.com/nikitarevenco
+    past-maintainers: []
+  categories:
+  - key: development
+    name: Development Tools
+    description: Tools aiding software development, management and distribution.
+    emoji: 💭
+  - key: wiki
+    name: Wikis
+    description: Websites that hold information edited by multiple users.
+    emoji: 🧠
+  - key: userstyle
+    name: Userstyles
+    description: Modified CSS files that can be applied to a website.
+    emoji: 🖌️
+  color: blue
 - name: Hyperpipe
   key: hyperpipe
   repository:
@@ -8065,6 +8105,8 @@ collaborators:
   url: https://github.com/xzi
 - username: Zazucki
   url: https://github.com/Zazucki
+- username: nikitarevenco
+  url: https://github.com/nikitarevenco
 - username: AnubisNekhet
   url: https://github.com/AnubisNekhet
 - username: ndsboy

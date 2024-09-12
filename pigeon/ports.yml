@@ -1280,6 +1280,9 @@ repositories:
 - name: visual-studio
   url: https://github.com/catppuccin/visual-studio
   current-maintainers: [djflan]
+- name: vitepress
+  url: https://github.com/catppuccin/vitepress
+  current-maintainers: [42Willow]
 - name: vivaldi
   url: https://github.com/catppuccin/vivaldi
   current-maintainers: [sakkke]
@@ -2969,6 +2972,13 @@ ports:
     url: https://marketplace.visualstudio.com/items?itemName=Catppuccin.CatppuccinVS
   key: visual-studio
   repository: visual-studio
+- name: VitePress
+  categories: [development]
+  platform: agnostic
+  color: blue
+  icon: vitepress
+  key: vitepress
+  repository: vitepress
 - name: Vivaldi
   categories: [browser]
   platform: [linux, macos, windows]

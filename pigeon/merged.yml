@@ -340,6 +340,8 @@ collaborators:
     url: https://github.com/xzi
   - username: Zazucki
     url: https://github.com/Zazucki
+  - username: nikitarevenco
+    url: https://github.com/nikitarevenco
   - username: AnubisNekhet
     url: https://github.com/AnubisNekhet
   - username: ndsboy
@@ -1404,6 +1406,9 @@ repositories:
   - name: visual-studio
     url: https://github.com/catppuccin/visual-studio
     current-maintainers: [djflan]
+  - name: vitepress
+    url: https://github.com/catppuccin/vitepress
+    current-maintainers: [42Willow]
   - name: vivaldi
     url: https://github.com/catppuccin/vivaldi
     current-maintainers: [sakkke]
@@ -1624,6 +1629,9 @@ repositories:
   - name: hoppscotch
     url: https://github.com/catppuccin/userstyles/tree/main/styles/hoppscotch
     current-maintainers: [justTOBBI]
+  - name: learn-x-in-y-minutes
+    url: https://github.com/catppuccin/userstyles/tree/main/styles/learn-x-in-y-minutes
+    current-maintainers: [nikitarevenco]
   - name: hyperpipe
     url: https://github.com/catppuccin/userstyles/tree/main/styles/hyperpipe
     current-maintainers: [jn-sena]
@@ -3419,6 +3427,13 @@ ports:
         url: https://marketplace.visualstudio.com/items?itemName=Catppuccin.CatppuccinVS
     key: visual-studio
     repository: visual-studio
+  - name: VitePress
+    categories: [development]
+    platform: agnostic
+    color: blue
+    icon: vitepress
+    key: vitepress
+    repository: vitepress
   - name: Vivaldi
     categories: [browser]
     platform: [linux, macos, windows]
@@ -3824,6 +3839,11 @@ ports:
     categories: [development, productivity, userstyle]
     icon: hoppscotch
     color: green
+  - name: Learn X in Y Minutes
+    key: learn-x-in-y-minutes
+    repository: learn-x-in-y-minutes
+    categories: [development, wiki, userstyle]
+    color: blue
   - name: Hyperpipe
     key: hyperpipe
     repository: hyperpipe
